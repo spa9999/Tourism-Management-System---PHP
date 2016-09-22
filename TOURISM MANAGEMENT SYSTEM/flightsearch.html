@@ -1,0 +1,97 @@
+<html>
+<body style="background-color:black">
+<table border="0">
+<tr>
+<td rowspan="5" style="background-color:grey;width:100px;height:150">
+<img src="tourst2.jpg" height="300" width="400" align="center">
+</td>
+<td rowspan="5" style="background-color:grey;width:1800px;height:150">
+<h1 style="text-align:center;text-color:black">WELCOME TO <br/> TOURIST MANAGEMENT SYSTEM
+</h1>
+</td>
+<td rowspan="5" style="background-color:grey;width:100px;height:150">
+<img src="tourist1.jpg" height="300" width="400">
+</td>
+
+</tr>
+</table>
+<br>
+<h1 style="text-align:center"><font color="red">FLIGHT SEARCH</font>
+</h1>
+<br>
+
+<form name="flightsearch.html" action="buk_flight1.php" method="post" >
+
+<table align="center" border="3">
+<tr>
+<td style="text-align:right"><font color="red">Customer name</font></td>
+<td>
+<input type="text" name="nm" required pattern="([^0-9][A-Za-z]+)" x-moz-error message="type required pattern">
+</td>
+<tr>
+<td style="text-align:right"><font color="red">From</font></td>
+<td>
+<select name="source">
+<option>Hyderabad</option>
+<option>Banglore</option>
+<option>Bombay</option>
+<option>Delhi</option>
+<option>J&K</option>
+</select>
+</td>
+<tr>
+<td style="text-align:right"><font color="red">To</font></td>
+<td>
+<select name="destination">
+<option>Hyderabad</option>
+<option>Banglore</option>
+<option>Bombay</option>
+<option>Delhi</option>
+<option>J&K</option>
+</select>
+
+</td>
+<tr>
+<td style="text-align:right"><font color="red">Date Of Journey</font></td>
+<td>
+<input type="date" name="nm6">
+</td>
+</tr>
+<tr>
+<td align="center"><input type="submit" value="Search">
+</td>
+</form>
+<form name="flight" action="buk_flight2.php" method="post">
+<td>
+</td>
+<tr>
+<td style="text-align:right"><font color="red">Select Flight No</font></td>
+<td>
+<input type="text" name="nmm5" required pattern="([0-9A-Za-z]+)" x-moz-error message="type required pattern">
+</td>
+<tr>
+<td style="text-align:right"><font color="red">Customer name</font></td>
+<td>
+<input type="text" name="nmm" required pattern="([^0-9][A-Za-z]+)" x-moz-error message="type required pattern">
+</td>
+
+<tr>
+<td style="text-align:center"><input type="submit" value="Make Booking"></td>
+<td>
+<input type="button" name="nm11" value="Logout">
+<a href="customerhome.html"><input type="button" name="n2m11" value="Back"></a>
+</td>
+
+</table>
+
+</form>
+
+<br>
+<br>
+<table border="0">
+<td colspan="6" style="background-color:grey;text-align:center;font-color:red; width:1500px; height:50px">
+Copyright &copy HMS,version 1.1</td>
+</tr>
+</table>
+</body>
+</html>
